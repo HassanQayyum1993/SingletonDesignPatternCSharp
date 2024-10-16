@@ -10,4 +10,4 @@ There are two implementations of the Singleton class in this program:
 This implementation uses a lock object to prevent multiple threads from initializing the Singleton class instance. It is called the "double-check locking" technique because it only locks the critical section of code if the instance is null, avoiding unnecessary locking.
 
 ## LazySingleton
-This implementation uses the Lazy<T> object of type Singleton. It provides thread safety, and in this approach, the instance is initialized only when it is accessed through the Value property.
+This implementation uses the Lazy<T> object of type Singleton Class. It provides thread safety, and in this approach, the instance is initialized only when it is accessed through the Value property.
